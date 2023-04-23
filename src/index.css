@@ -50,4 +50,11 @@ text-align: center;
 .book h2{
     margin-top: 1rem;
     font-size: 1rem;
+    color: rgb(94, 36, 187);
 }
+
+.book h4 {
+    color: #617d;
+    font-size:0.75rem;
+    margin-top:0.5rem;
+  };

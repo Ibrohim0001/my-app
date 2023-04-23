@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css"
-
-
+import "./index.css";
  
 const BookList = () => {
   return (
@@ -15,31 +13,17 @@ const BookList = () => {
 };
 
 const Book = () => {
+  const title = 'Wellcome to book shop'
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+    <img
+     src="./Images/image1.jpg" alt="image " 
+     />
+     <h2>{title}</h2>
+     <h4>image placeholder</h4>
     </article>
   );
 };
-
-const Image = () => (
-  <img
-    src="https://cwexplorationphotography.com/wp-content/uploads/galleries/post-1540/thumbnails/10896225_528254790650735_6470305242078852429_o.jpg"
-    alt="image "
-  />
-);
-
-const Title = () => <h2>Book Title</h2>;
-
-const Author = () => {
-  return <h4>image placeholder</h4>;
-};
-
-
-
-
 
 
 
